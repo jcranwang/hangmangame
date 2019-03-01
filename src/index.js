@@ -1,3 +1,6 @@
+import Hangman from "./hangman";
+import getPuzzle from "./request";
+
 const remainGuess = document.querySelector("#remain-guess");
 const puzzleDisplay = document.querySelector("#puzzle");
 const status = document.querySelector("#status");
